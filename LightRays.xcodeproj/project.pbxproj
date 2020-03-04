@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022C25F6239ADF4400E2D35D /* Source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 022C25F4239ADF4400E2D35D /* Source.cpp */; };
+		026842D323D727A70023E614 /* ObjetDiffusant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026842D123D727A70023E614 /* ObjetDiffusant.cpp */; };
+		02862264240ED9750000A6ED /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02F319B423DA713B0059D3AF /* Scene.cpp */; };
+		02AEC71D23F2CB8900816C72 /* ObjetsOptiques.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02AEC71B23F2CB8900816C72 /* ObjetsOptiques.cpp */; };
+		02B2BEE923FF44B8009FDF7F /* SceneTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02B2BEE723FF44B8009FDF7F /* SceneTest.cpp */; };
+		02C0BBF923F99485006F99C7 /* Brouillard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C0BBF723F99485006F99C7 /* Brouillard.cpp */; };
+		02D1B5942376E96400B7FC13 /* ObjetsCourbes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D1B5922376E96400B7FC13 /* ObjetsCourbes.cpp */; };
+		02D1B5972376EC0E00B7FC13 /* Rayon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D1B5952376EC0E00B7FC13 /* Rayon.cpp */; };
+		02D1B59A2377242B00B7FC13 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D1B5982377242B00B7FC13 /* Util.cpp */; };
+		02D1B59D237744EC00B7FC13 /* ObjetMilieux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D1B59B237744EC00B7FC13 /* ObjetMilieux.cpp */; };
+		02D1B5A02379ED3B00B7FC13 /* Ecran.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D1B59E2379ED3B00B7FC13 /* Ecran.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020AFBD8240006F6009C70B1 /* main_brouillard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_brouillard.cpp; sourceTree = "<group>"; };
+		022C25F4239ADF4400E2D35D /* Source.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Source.cpp; sourceTree = "<group>"; };
+		022C25F5239ADF4400E2D35D /* Source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Source.h; sourceTree = "<group>"; };
+		0231D0D223FF5743009E26E3 /* main_milieux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_milieux.cpp; sourceTree = "<group>"; };
+		0266D47823A9A64D00A89D08 /* sfml_c01.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = sfml_c01.hpp; path = ../../Libs/sfml_c01.hpp; sourceTree = "<group>"; };
+		026842D123D727A70023E614 /* ObjetDiffusant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjetDiffusant.cpp; sourceTree = "<group>"; };
+		026842D223D727A70023E614 /* ObjetDiffusant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjetDiffusant.h; sourceTree = "<group>"; };
+		0273457B240C0E6B00C35E09 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = "<none>"; };
+		02AEC71B23F2CB8900816C72 /* ObjetsOptiques.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjetsOptiques.cpp; sourceTree = "<group>"; };
+		02AEC71C23F2CB8900816C72 /* ObjetsOptiques.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjetsOptiques.h; sourceTree = "<group>"; };
+		02AEC71F23F33ACF00816C72 /* ObjetsCourbes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjetsCourbes.h; sourceTree = "<group>"; };
+		02AEC72123F3619600816C72 /* main_debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_debug.cpp; sourceTree = "<group>"; };
+		02B2BEE523FEAF75009FDF7F /* main_diffus_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_diffus_test.cpp; sourceTree = "<group>"; };
+		02B2BEE723FF44B8009FDF7F /* SceneTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneTest.cpp; sourceTree = "<group>"; };
+		02B2BEE823FF44B8009FDF7F /* SceneTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneTest.h; sourceTree = "<group>"; };
+		02C0BBF723F99485006F99C7 /* Brouillard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Brouillard.cpp; sourceTree = "<group>"; };
+		02C0BBF823F99485006F99C7 /* Brouillard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brouillard.h; sourceTree = "<group>"; };
+		02D1B57A23762C8200B7FC13 /* LightRays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightRays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D1B57E23762C8300B7FC13 /* LightRays-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightRays-Info.plist"; sourceTree = "<group>"; };
+		02D1B58223762C8300B7FC13 /* main_store.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main_store.cpp; sourceTree = "<group>"; };
+		02D1B5922376E96400B7FC13 /* ObjetsCourbes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjetsCourbes.cpp; sourceTree = "<group>"; };
+		02D1B5932376E96400B7FC13 /* Objet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Objet.h; sourceTree = "<group>"; };
+		02D1B5952376EC0E00B7FC13 /* Rayon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rayon.cpp; sourceTree = "<group>"; };
+		02D1B5962376EC0E00B7FC13 /* Rayon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rayon.h; sourceTree = "<group>"; };
+		02D1B5982377242B00B7FC13 /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
+		02D1B5992377242B00B7FC13 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		02D1B59B237744EC00B7FC13 /* ObjetMilieux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjetMilieux.cpp; sourceTree = "<group>"; };
+		02D1B59C237744EC00B7FC13 /* ObjetMilieux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjetMilieux.h; sourceTree = "<group>"; };
+		02D1B59E2379ED3B00B7FC13 /* Ecran.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ecran.cpp; sourceTree = "<group>"; };
+		02D1B59F2379ED3B00B7FC13 /* Ecran.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ecran.h; sourceTree = "<group>"; };
+		02F319B423DA713B0059D3AF /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		02F319B523DA713B0059D3AF /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02D1B57623762C8200B7FC13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D1B57023762C8200B7FC13 = {
+			isa = PBXGroup;
+			children = (
+				02D1B57C23762C8200B7FC13 /* LightRays */,
+				02D1B57B23762C8200B7FC13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02D1B57B23762C8200B7FC13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02D1B57A23762C8200B7FC13 /* LightRays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02D1B57C23762C8200B7FC13 /* LightRays */ = {
+			isa = PBXGroup;
+			children = (
+				02D1B5992377242B00B7FC13 /* Util.h */,
+				02D1B5982377242B00B7FC13 /* Util.cpp */,
+				02D1B5962376EC0E00B7FC13 /* Rayon.h */,
+				02D1B5952376EC0E00B7FC13 /* Rayon.cpp */,
+				02D1B5932376E96400B7FC13 /* Objet.h */,
+				02AEC71F23F33ACF00816C72 /* ObjetsCourbes.h */,
+				02D1B5922376E96400B7FC13 /* ObjetsCourbes.cpp */,
+				02D1B59C237744EC00B7FC13 /* ObjetMilieux.h */,
+				02D1B59B237744EC00B7FC13 /* ObjetMilieux.cpp */,
+				026842D223D727A70023E614 /* ObjetDiffusant.h */,
+				026842D123D727A70023E614 /* ObjetDiffusant.cpp */,
+				02AEC71C23F2CB8900816C72 /* ObjetsOptiques.h */,
+				02AEC71B23F2CB8900816C72 /* ObjetsOptiques.cpp */,
+				02C0BBF823F99485006F99C7 /* Brouillard.h */,
+				02C0BBF723F99485006F99C7 /* Brouillard.cpp */,
+				022C25F5239ADF4400E2D35D /* Source.h */,
+				022C25F4239ADF4400E2D35D /* Source.cpp */,
+				02D1B59F2379ED3B00B7FC13 /* Ecran.h */,
+				02D1B59E2379ED3B00B7FC13 /* Ecran.cpp */,
+				02F319B523DA713B0059D3AF /* Scene.h */,
+				02F319B423DA713B0059D3AF /* Scene.cpp */,
+				02B2BEE823FF44B8009FDF7F /* SceneTest.h */,
+				02B2BEE723FF44B8009FDF7F /* SceneTest.cpp */,
+				02B2BEE523FEAF75009FDF7F /* main_diffus_test.cpp */,
+				02D1B58223762C8300B7FC13 /* main_store.cpp */,
+				020AFBD8240006F6009C70B1 /* main_brouillard.cpp */,
+				0231D0D223FF5743009E26E3 /* main_milieux.cpp */,
+				02AEC72123F3619600816C72 /* main_debug.cpp */,
+				0266D47823A9A64D00A89D08 /* sfml_c01.hpp */,
+				0273457B240C0E6B00C35E09 /* Makefile */,
+				02D1B57D23762C8200B7FC13 /* Supporting Files */,
+			);
+			path = LightRays;
+			sourceTree = "<group>";
+		};
+		02D1B57D23762C8200B7FC13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02D1B57E23762C8300B7FC13 /* LightRays-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02D1B57923762C8200B7FC13 /* LightRays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D1B58F23762C8300B7FC13 /* Build configuration list for PBXNativeTarget "LightRays" */;
+			buildPhases = (
+				02D1B57523762C8200B7FC13 /* Sources */,
+				02D1B57623762C8200B7FC13 /* Frameworks */,
+				02D1B57723762C8200B7FC13 /* Resources */,
+				02D1B57823762C8200B7FC13 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightRays;
+			productName = LightRays;
+			productReference = 02D1B57A23762C8200B7FC13 /* LightRays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02D1B57123762C8200B7FC13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = xif;
+				TargetAttributes = {
+					02D1B57923762C8200B7FC13 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 02D1B57423762C8200B7FC13 /* Build configuration list for PBXProject "LightRays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02D1B57023762C8200B7FC13;
+			productRefGroup = 02D1B57B23762C8200B7FC13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02D1B57923762C8200B7FC13 /* LightRays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02D1B57723762C8200B7FC13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02D1B57823762C8200B7FC13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D1B57523762C8200B7FC13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D1B5942376E96400B7FC13 /* ObjetsCourbes.cpp in Sources */,
+				02862264240ED9750000A6ED /* Scene.cpp in Sources */,
+				026842D323D727A70023E614 /* ObjetDiffusant.cpp in Sources */,
+				02D1B59D237744EC00B7FC13 /* ObjetMilieux.cpp in Sources */,
+				022C25F6239ADF4400E2D35D /* Source.cpp in Sources */,
+				02D1B5A02379ED3B00B7FC13 /* Ecran.cpp in Sources */,
+				02C0BBF923F99485006F99C7 /* Brouillard.cpp in Sources */,
+				02D1B5972376EC0E00B7FC13 /* Rayon.cpp in Sources */,
+				02B2BEE923FF44B8009FDF7F /* SceneTest.cpp in Sources */,
+				02D1B59A2377242B00B7FC13 /* Util.cpp in Sources */,
+				02AEC71D23F2CB8900816C72 /* ObjetsOptiques.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02D1B58D23762C8300B7FC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+					../../Libs/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DSFMLC01_WINDOW_UNIT=720",
+					"-Dvec2_t=vec_t",
+					"-Dpt2_t=point_t",
+					"-DFONT_PATH=\\\"/Users/xif/Desktop/Code/LightRays/LightRays/DejaVuSansMono.ttf\\\"",
+					"-DNOSTDOPTIONAL",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+					"-lfmt",
+				);
+				SFML_AUDIO = "";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		02D1B58E23762C8300B7FC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+					../../Libs/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DSFMLC01_WINDOW_UNIT=720",
+					"-Dvec2_t=vec_t",
+					"-Dpt2_t=point_t",
+					"-DFONT_PATH=\\\"/Users/xif/Desktop/Code/LightRays/LightRays/DejaVuSansMono.ttf\\\"",
+					"-DNOSTDOPTIONAL",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+					"-lfmt",
+				);
+				SFML_AUDIO = "";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		02D1B59023762C8300B7FC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LightRays/LightRays-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		02D1B59123762C8300B7FC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LightRays/LightRays-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D1B57423762C8200B7FC13 /* Build configuration list for PBXProject "LightRays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D1B58D23762C8300B7FC13 /* Debug */,
+				02D1B58E23762C8300B7FC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D1B58F23762C8300B7FC13 /* Build configuration list for PBXNativeTarget "LightRays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D1B59023762C8300B7FC13 /* Debug */,
+				02D1B59123762C8300B7FC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02D1B57123762C8200B7FC13 /* Project object */;
+}
