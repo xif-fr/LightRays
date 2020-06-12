@@ -10,6 +10,7 @@
 		022C25F6239ADF4400E2D35D /* Source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 022C25F4239ADF4400E2D35D /* Source.cpp */; };
 		026842D323D727A70023E614 /* ObjetDiffusant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026842D123D727A70023E614 /* ObjetDiffusant.cpp */; };
 		02862264240ED9750000A6ED /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02F319B423DA713B0059D3AF /* Scene.cpp */; };
+		02A50045242ADE2000252D54 /* main_diffus_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02B2BEE523FEAF75009FDF7F /* main_diffus_test.cpp */; };
 		02AEC71D23F2CB8900816C72 /* ObjetsOptiques.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02AEC71B23F2CB8900816C72 /* ObjetsOptiques.cpp */; };
 		02B2BEE923FF44B8009FDF7F /* SceneTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02B2BEE723FF44B8009FDF7F /* SceneTest.cpp */; };
 		02C0BBF923F99485006F99C7 /* Brouillard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C0BBF723F99485006F99C7 /* Brouillard.cpp */; };
@@ -220,6 +221,7 @@
 				02C0BBF923F99485006F99C7 /* Brouillard.cpp in Sources */,
 				02D1B5972376EC0E00B7FC13 /* Rayon.cpp in Sources */,
 				02B2BEE923FF44B8009FDF7F /* SceneTest.cpp in Sources */,
+				02A50045242ADE2000252D54 /* main_diffus_test.cpp in Sources */,
 				02D1B59A2377242B00B7FC13 /* Util.cpp in Sources */,
 				02AEC71D23F2CB8900816C72 /* ObjetsOptiques.cpp in Sources */,
 			);

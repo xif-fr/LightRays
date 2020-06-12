@@ -1,15 +1,18 @@
 #include <SFML/Graphics.hpp>
 #include <string>
+#ifndef SFMLC01_WINDOW_HEIGHT
+#define SFMLC01_WINDOW_HEIGHT SFMLC01_WINDOW_UNIT
+#endif
 
 namespace sf { namespace c01 {
 	
 	inline sf::Vector2f toWin (pt2_t p) {
-		return sf::Vector2f( p.x*SFMLC01_WINDOW_UNIT, (1.f-p.y)*SFMLC01_WINDOW_UNIT );
+		return sf::Vector2f( p.x*SFMLC01_WINDOW_UNIT, SFMLC01_WINDOW_HEIGHT-p.y*SFMLC01_WINDOW_UNIT );
 	}
 	
 	inline void setCircleCR (sf::CircleShape& circle, pt2_t c, float r) {
 		circle.setRadius(r*SFMLC01_WINDOW_UNIT);
-		circle.setPosition( (c.x-r)*SFMLC01_WINDOW_UNIT, (1.f-c.y-r)*SFMLC01_WINDOW_UNIT );
+		circle.setPosition( (c.x-r)*SFMLC01_WINDOW_UNIT, SFMLC01_WINDOW_HEIGHT-(c.y+r)*SFMLC01_WINDOW_UNIT );
 	}
 	inline sf::CircleShape buildCircleShapeCR (pt2_t c, float r) {
 		sf::CircleShape circle; sf::c01::setCircleCR(circle, c, r); return circle;
